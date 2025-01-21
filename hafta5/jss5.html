@@ -11,26 +11,6 @@
         <button onclick="hesapla('*')">çarp</button>
         <button onclick="hesapla('/')">böl</button>
         <div id="sonuc"></div>
-        <script>
-            var sayi1= document.getElementById("sayi1");
-            var sayi2= document.getElementById("sayi2");
-            function hesapla() {
-                var sonuc= "";
-                switch(type){
-                    case "+": 
-                        sonuc= Number(sayi1.value) + Number(sayi2.value);
-                        break;
-                    case "-": 
-                        sonuc= Number(sayi1.value) - Number(sayi2.value);
-                        break;
-                    case "*": 
-                        sonuc= Number(sayi1.value) * Number(sayi2.value);
-                        break;
-                    case "/": 
-                        sonuc= Number(sayi1.value) / Number(sayi2.value);
-                        break;
-                }
-            }
-        </script>
+        <script src="./script.js"> </script>
     </body>
 </html>
